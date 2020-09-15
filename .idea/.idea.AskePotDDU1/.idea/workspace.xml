@@ -4,7 +4,16 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
@@ -12,11 +21,28 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="" />
+    <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AskePotDDU1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AskePotDDU1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player_Walk_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player_Walk_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående højre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående højre.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående venstre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående venstre.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre stående.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre stående.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0000_Bagfra gående venstre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0000_Bagfra gående venstre.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0001_Bagfra gående højre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0001_Bagfra gående højre.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0002_Bagfra.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0002_Bagfra.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0003_Siden gående.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0003_Siden gående.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0004_Siden stående.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0004_Siden stående.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0005_Forfra.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0005_Forfra.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prins forfra gående højre.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prins forfra gående venstre.psd.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +50,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/arna0129/Documents/Unity/AskePotDDU1/Assets/Sprites/Prins forfra gående højre.psd.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/arna0129/Documents/Unity/AskePotDDU1/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/arna0129/Documents/Unity/AskePotDDU1/ProjectSettings/QualitySettings.asset" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,7 +106,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -87,12 +130,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Plr COntrller" />
     <MESSAGE value="Sprites Folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprites Folder" />
+    <MESSAGE value="FUck dig" />
+    <option name="LAST_COMMIT_MESSAGE" value="FUck dig" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1599822138763">
+    <state x="598" y="341" width="1053" height="477" key="MultipleFileMergeDialog" timestamp="1600161750454">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1599822138763" />
+    <state x="598" y="341" width="1053" height="477" key="MultipleFileMergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1600161750454" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1600161822804">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1600161822804" />
   </component>
 </project>
