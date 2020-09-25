@@ -27,21 +27,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AskePotDDU1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AskePotDDU1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player_Walk_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player_Walk_Left.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående højre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående højre.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående venstre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående venstre.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre stående.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre stående.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins siden venstre.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0000_Bagfra gående venstre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0000_Bagfra gående venstre.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0001_Bagfra gående højre.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0001_Bagfra gående højre.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0002_Bagfra.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0002_Bagfra.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0003_Siden gående.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0003_Siden gående.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0004_Siden stående.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0004_Siden stående.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0005_Forfra.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prinsen_0005_Forfra.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prins forfra gående højre.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prins forfra gående venstre.psd.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/sBlueHouse .prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/sBlueHouse .prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/sGreenHouse .prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/sGreenHouse .prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/sRedHouse .prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/sRedHouse .prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/House 01.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/House 01.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/House 02.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/House 02.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/House 03.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/House 03.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/Materials/House 01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/House/Materials/House 01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins ny_0000_Siden gående højre.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins ny_0000_Siden gående højre.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins ny_0001_Siden stående højre.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins ny_0001_Siden stående højre.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins ny_0002_Forfra.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins ny_0002_Forfra.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stedsøster2.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stedsøster2.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/fegudmor.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/fegudmor.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tjener.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tjener.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tilemap Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tilemap Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Tile Gap Fix.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Tile Gap Fix.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående højre.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående højre.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående venstre.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Prins forfra gående venstre.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stedsøster1.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Stedsøster1.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stedsøster1.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Stedsøster1.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +71,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/arna0129/Documents/Unity/AskePotDDU1/Assets/Sprites/Prins forfra gående højre.psd.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/arna0129/Documents/Unity/AskePotDDU1/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/arna0129/Documents/Unity/AskePotDDU1/ProjectSettings/QualitySettings.asset" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCconversation.cs" />
       </list>
     </option>
   </component>
@@ -76,7 +92,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -99,6 +115,17 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="" />
+      <created>1601031519830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601031519830</updated>
+      <workItem from="1601031541198" duration="760000" />
+    </task>
+    <servers />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
