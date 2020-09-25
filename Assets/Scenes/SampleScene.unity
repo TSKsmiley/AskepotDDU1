@@ -367,7 +367,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3531729788546800014, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531729788546800014, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
+      propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531729788546800014, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531729788546800014, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531729788546800014, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531729788546800014, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcbd7e8917bcb6548b1477d0d3669870, type: 3}
