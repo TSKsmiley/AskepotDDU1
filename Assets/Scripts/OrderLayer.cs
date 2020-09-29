@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class OrderLayer : MonoBehaviour
 {
-    private SpriteRenderer sr;
+    public SpriteRenderer sr;
     private void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        if (!sr)
+        {
+            sr = GetComponent<SpriteRenderer>();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
