@@ -12,12 +12,11 @@ public class MiniGame : MonoBehaviour
     public String text;
     public TextMeshProUGUI statusText;
     
-    private int _clicks;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!enabled) return;
         isActive = true;
-        statusText.text = text;
+        statusText.text = "Tryk på E " + missionClicks + " Gange For at " + text;
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -38,11 +37,15 @@ public class MiniGame : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isActive)
         {
-            _clicks++;
-            if (_clicks >= missionClicks)
+            missionClicks--;
+            if (missionClicks == 0)
             {
                 statusText.text = null;
                 enabled = false;
+            }
+            else
+            {
+                statusText.text = "Tryk på E " + missionClicks + " Gange For at " + text;
             }
         }
     }
