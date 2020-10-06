@@ -11,6 +11,7 @@ public class MiniGame : MonoBehaviour
     public int missionClicks;
     public String text;
     public TextMeshProUGUI statusText;
+    public MissionController misnController;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -41,6 +42,7 @@ public class MiniGame : MonoBehaviour
             if (missionClicks == 0)
             {
                 statusText.text = null;
+                misnController.Next();
                 enabled = false;
             }
             else
