@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MissionController : MonoBehaviour
 {
-    public NPCconversation[] Missions;
+    public GameObject[] Missions;
     public int CurrentMission;
 
     public void Next()
@@ -12,7 +13,17 @@ public class MissionController : MonoBehaviour
         CurrentMission++;
         if (Missions.Length > CurrentMission)
         {
-            Missions[CurrentMission].enabled = true;
+            try { Missions[CurrentMission].GetComponent<NPCconversation>().enabled = true;}
+            catch
+            {
+                // ignored
+            }
+        
+            try { Missions[CurrentMission].GetComponent<MiniGame>().enabled = true;}
+            catch
+            {
+                // ignored
+            }
         }
     }
     
@@ -20,7 +31,19 @@ public class MissionController : MonoBehaviour
     void Start()
     {
         CurrentMission = 0;
-        Missions[CurrentMission].enabled = true;
+
+        try { Missions[CurrentMission].GetComponent<NPCconversation>().enabled = true;}
+        catch
+        {
+            // ignored
+        }
+        
+        try { Missions[CurrentMission].GetComponent<MiniGame>().enabled = true;}
+        catch
+        {
+            // ignored
+        }
+        
     }
 
     // Update is called once per frame
