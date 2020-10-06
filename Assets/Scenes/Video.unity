@@ -322,7 +322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tryk 'Space' for at skip
+  m_text: Tryk 'Mellemrum' for at skip
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2cbcb7f22a3e86b47a5314ecccf476fb, type: 2}
   m_sharedMaterial: {fileID: -4986669456647258155, guid: 2cbcb7f22a3e86b47a5314ecccf476fb, type: 2}
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -249.95056, w: 0}
+  m_margin: {x: 0, y: 0, z: -288.0354, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
