@@ -485,8 +485,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "The Adventure of \nPrince Charming \r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1ff77fb4885a23c408ad3b5fb79f8f17, type: 2}
-  m_sharedMaterial: {fileID: -10992670595718508, guid: 1ff77fb4885a23c408ad3b5fb79f8f17, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af91b767d12e43a46a5b525d4f949b4b, type: 2}
+  m_sharedMaterial: {fileID: 927261014445309902, guid: af91b767d12e43a46a5b525d4f949b4b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -510,8 +510,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -92.65527, y: -26.95082, z: -91.913574, w: -30.205994}
+  m_margin: {x: -92.65527, y: -26.95082, z: -105.47197, w: -30.205994}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
