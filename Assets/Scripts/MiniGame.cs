@@ -13,6 +13,9 @@ public class MiniGame : MonoBehaviour
     public TextMeshProUGUI statusText;
     public MissionController misnController;
     public Animator Anim;
+    public List<GameObject> Wheat;
+    public SpriteRenderer Flour;
+
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -46,11 +49,13 @@ public class MiniGame : MonoBehaviour
                 statusText.text = null;
                 misnController.Next();
                 enabled = false;
+                Anim.enabled = false;
             }
             else
             {
+                Wheat[0].GetComponent<SpriteRenderer>().enabled = false;
+                Wheat.RemoveAt(0);
                 statusText.text = "Tryk på E " + missionClicks + " Gange For at " + text;
-                Anim.enabled = false;
             }
         }
     }
