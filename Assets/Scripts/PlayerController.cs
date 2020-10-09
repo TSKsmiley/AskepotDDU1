@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     private static readonly int Speed = Animator.StringToHash("Speed");
 
 	public Canvas escapeMenu;
+	public Camera minimapCam;
+	public SpriteRenderer redSquare;
 
     // Update is called once per frame
     void Update() // input
@@ -44,8 +46,12 @@ public class PlayerController : MonoBehaviour
 		{
 			escapeMenu.enabled = !escapeMenu.enabled;
 		}
-		
 
+		if (Input.GetKeyDown(KeyCode.M))
+		{
+			minimapCam.enabled = !minimapCam.enabled;
+			redSquare.enabled = !redSquare.enabled;
+		}
 
 
 
@@ -53,8 +59,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate() // movement 
     {
-        rb.MovePosition(rb.position + _movement * (moveSpeed * Time.fixedDeltaTime));
-    }
+		if (!minimapCam.enabled)
+		{
+			rb.MovePosition(rb.position + _movement * (moveSpeed * Time.fixedDeltaTime));
+		}
+	}
 
 
 }
