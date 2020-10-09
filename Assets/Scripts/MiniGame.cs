@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -46,6 +47,7 @@ public class MiniGame : MonoBehaviour
             missionClicks--;
             if (missionClicks == 0)
             {
+                Flour.enabled = false;
                 statusText.text = null;
                 misnController.Next();
                 enabled = false;
@@ -53,8 +55,15 @@ public class MiniGame : MonoBehaviour
             }
             else
             {
-                Wheat[0].GetComponent<SpriteRenderer>().enabled = false;
-                Wheat.RemoveAt(0);
+                try
+                {
+                    Wheat[0].GetComponent<SpriteRenderer>().enabled = false;
+                    Wheat.RemoveAt(0);
+                }
+                catch (Exception e)
+                {
+                    Flour.enabled = true;
+                }
                 statusText.text = "Tryk på E " + missionClicks + " Gange For at " + text;
             }
         }

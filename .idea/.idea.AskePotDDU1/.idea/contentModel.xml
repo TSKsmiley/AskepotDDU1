@@ -19,6 +19,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="EscapeMenuCanvas.cs" t="Include" />
           <e p="MiniGame.cs" t="Include" />
           <e p="MissionController.cs" t="Include" />
           <e p="MusicIntervalThing.cs" t="Include" />
