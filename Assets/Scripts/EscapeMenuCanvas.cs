@@ -7,6 +7,7 @@ public class EscapeMenuCanvas : MonoBehaviour
 {
 	public Canvas menuEscape;
 	public Camera minimapCamera;
+	public SpriteRenderer rSq;
 
 	public void MainMenu()
 	{
@@ -26,6 +27,7 @@ public class EscapeMenuCanvas : MonoBehaviour
 	public void mapEnable()
 	{
 		minimapCamera.enabled = !minimapCamera.enabled;
+		rSq.enabled = !rSq.enabled;
 	}
 
 }
