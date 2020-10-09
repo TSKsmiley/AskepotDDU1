@@ -16,7 +16,7 @@ public class MusicIntervalThing : MonoBehaviour
 
 	IEnumerator IPlaySound()
 	{
-		yield return new WaitForSeconds(Random.Range(60f, 90f));
+		yield return new WaitForSeconds(Random.Range(40f, 60f));
 
 		clipIndex = Random.Range(0, clips.Length);
 		audio.PlayOneShot(clips[clipIndex], 1f);
