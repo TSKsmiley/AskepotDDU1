@@ -12,10 +12,12 @@ public class NPCconversation : MonoBehaviour
     public TextMeshProUGUI Text;
     public PlayerController PlayerController;
     public MissionController MissionController;
+	public SpriteRenderer questIcon;
 
     private bool isTalking;
     private int index = 0;
     private NPCconversation _npCconversation;
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -32,8 +34,12 @@ public class NPCconversation : MonoBehaviour
         Text.text = Dialouge[index];
         index++;
     }
-    
-    
+
+	public void startQuest()
+	{
+		questIcon.enabled = true;
+	}
+		
     
     // Start is called before the first frame update
     void Start()
@@ -54,6 +60,7 @@ public class NPCconversation : MonoBehaviour
             isTalking = false;
             canvs.enabled = false;
             PlayerController.enabled = true;
+			questIcon.enabled = false;
             MissionController.Next();
         }
     }

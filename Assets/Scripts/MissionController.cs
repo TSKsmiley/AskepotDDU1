@@ -13,8 +13,12 @@ public class MissionController : MonoBehaviour
         CurrentMission++;
         if (Missions.Length > CurrentMission)
         {
-            try { Missions[CurrentMission].GetComponent<NPCconversation>().enabled = true;}
-            catch
+            try
+			{
+				Missions[CurrentMission].GetComponent<NPCconversation>().enabled = true;
+				Missions[CurrentMission].GetComponent<NPCconversation>().startQuest();
+			}
+			catch
             {
                 // ignored
             }
@@ -32,8 +36,12 @@ public class MissionController : MonoBehaviour
     {
         CurrentMission = 0;
 
-        try { Missions[CurrentMission].GetComponent<NPCconversation>().enabled = true;}
-        catch
+        try
+		{
+			Missions[CurrentMission].GetComponent<NPCconversation>().enabled = true;
+			Missions[CurrentMission].GetComponent<NPCconversation>().startQuest();
+		}
+		catch
         {
             // ignored
         }
