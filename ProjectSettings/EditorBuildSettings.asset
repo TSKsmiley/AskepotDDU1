@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tilemap Level 1.unity
     guid: 791e88211e0d67148b8a1fced4c6eb98
+  - enabled: 1
+    path: Assets/Scenes/Mini map test.unity
+    guid: 4485c0e13a4f67a439d5eee5ee3d7182
   m_configObjects: {}
