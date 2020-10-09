@@ -26,25 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/korn.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/korn.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/mel.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/mel.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AskePotDDU1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AskePotDDU1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tilemap Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tilemap Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Høns.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Høns.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sten 2.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Sten 2.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tree01.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tree01.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tree02.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tree02.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindMølletopThing.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/WindMølletopThing.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Windmølle.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Windmølle.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ko.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ko.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/korn.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/korn.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/mel.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/mel.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/æg.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/æg.psd.meta" afterDir="false" />
-    </list>
+    <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +96,7 @@
       <workItem from="1601031541198" duration="3349000" />
       <workItem from="1601362352942" duration="7947000" />
       <workItem from="1601970122785" duration="7239000" />
-      <workItem from="1602235379732" duration="4045000" />
+      <workItem from="1602235379732" duration="4820000" />
     </task>
     <servers />
   </component>
