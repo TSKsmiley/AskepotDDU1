@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="" />
+    <list default="true" id="ae01fff5-2161-4f7e-975c-5d82f74eb444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGame.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +98,7 @@
       <workItem from="1601031541198" duration="3349000" />
       <workItem from="1601362352942" duration="7947000" />
       <workItem from="1601970122785" duration="7239000" />
-      <workItem from="1602235379732" duration="4820000" />
+      <workItem from="1602235379732" duration="5448000" />
     </task>
     <servers />
   </component>
