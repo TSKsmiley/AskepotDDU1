@@ -12,6 +12,7 @@ public class MiniGame : MonoBehaviour
     public String text;
     public TextMeshProUGUI statusText;
     public MissionController misnController;
+    public Animator Anim;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -38,6 +39,7 @@ public class MiniGame : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isActive)
         {
+            Anim.enabled = true;
             missionClicks--;
             if (missionClicks == 0)
             {
@@ -48,6 +50,7 @@ public class MiniGame : MonoBehaviour
             else
             {
                 statusText.text = "Tryk på E " + missionClicks + " Gange For at " + text;
+                Anim.enabled = false;
             }
         }
     }
