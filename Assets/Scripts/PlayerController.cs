@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private static readonly int Vertical = Animator.StringToHash("Vertical");
     private static readonly int Speed = Animator.StringToHash("Speed");
 
+	public Canvas escapeMenu;
+
     // Update is called once per frame
     void Update() // input
     {
@@ -35,6 +37,16 @@ public class PlayerController : MonoBehaviour
 			audio.Play();
 		else if (!Input.GetButton("Horizontal") && !Input.GetButton("Vertical") && audio.isPlaying)
 			audio.Stop(); // or Pause()
+
+
+
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			escapeMenu.enabled = !escapeMenu.enabled;
+		}
+		
+
+
 
 
 	}
