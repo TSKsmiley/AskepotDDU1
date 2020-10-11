@@ -13,6 +13,7 @@ public class NPCconversation : MonoBehaviour
     public PlayerController PlayerController;
     public MissionController MissionController;
 	public SpriteRenderer questIcon;
+	public Camera miniMap;
 
     private bool isTalking;
     private int index = 0;
@@ -63,5 +64,13 @@ public class NPCconversation : MonoBehaviour
 			questIcon.enabled = false;
             MissionController.Next();
         }
-    }
+		if (miniMap.enabled && questIcon.transform.localScale.x == 6)
+		{
+			questIcon.transform.localScale = new Vector2(50, 50);
+		}
+		else if (!miniMap.enabled && questIcon.transform.localScale.x == 50)
+		{
+			questIcon.transform.localScale = new Vector2(6, 6);
+		}
+	}
 }
